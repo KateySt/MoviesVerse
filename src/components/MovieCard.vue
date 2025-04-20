@@ -30,7 +30,7 @@
 
       <div class="flex items-center justify-between text-sm text-gray-500 dark:text-gray-400">
         <span>{{ movie.release_date }}</span>
-        <span v-if="movie.video" class="text-green-600 font-medium">🎥 Video Available</span>
+        <span v-if="movie.video" class="text-green-600 font-medium">Video Available</span>
         <span v-else class="text-red-500 font-medium">No Video</span>
       </div>
     </div>
