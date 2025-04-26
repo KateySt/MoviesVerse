@@ -5,7 +5,7 @@
       class="px-4 py-2 rounded-md transition disabled:opacity-50 disabled:cursor-not-allowed"
       @click="changePage(pageMovies - 1)"
     >
-      ← Back
+      ← {{ $t('message.Back') }}
     </button>
 
     <span class="text-lg font-medium px-2"> {{ pageMovies }} - {{ totalPage }} </span>
@@ -15,7 +15,7 @@
       class="px-4 py-2 rounded-md transition disabled:opacity-50 disabled:cursor-not-allowed"
       @click="changePage(pageMovies + 1)"
     >
-      Next →
+      {{ $t('message.Next') }} →
     </button>
   </div>
 </template>
